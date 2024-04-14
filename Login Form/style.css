@@ -24,7 +24,7 @@ nav{
 .links-container{
   display: flex;
 }
-nav a{
+.navlink {
   height: 100%;
   padding: 0 20px;
   display: flex;
@@ -32,6 +32,8 @@ nav a{
   text-decoration: none;
   color: var(--text-color);
   font-weight: 700;
+  margin-left: 20px;
+  padding: 20px;
 }
 #logos {
   width: 50%;
@@ -60,8 +62,11 @@ nav a{
 	font-size: 18px;
 	padding-left: 10px;
 }
-nav a:hover{
-  background-color: var(--accent-color);
+nav .navlink:hover{
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  transition: 0.3s;
 }
 nav .home-link{
   margin-right: auto;
