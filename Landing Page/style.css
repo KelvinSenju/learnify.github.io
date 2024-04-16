@@ -325,10 +325,40 @@ nav svg{
   color: var(--color-1);
   font-weight: 600;
 }
+.bottomfooter {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 50%;
+  padding: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 55%;
+  background-color: var(--color-1);
+  bottom: 0;
+  width: 100%;
+}
+
+.propertytext {
+  color: var(--text-color);
+  display: flex;
+  margin-bottom: -1em;
+}
+#group {
+  text-align: left;
+}
+#subject {
+  text-align: left;
+}
 
 @media(max-width: 1280px){
   .links-hider {
     width: 15%;
+  }
+  .bottomfooter {
+    gap: 30%;
   }
 }
 

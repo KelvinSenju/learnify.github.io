@@ -178,6 +178,41 @@ nav svg{
   font-size: 12px;
   margin-top: 5px;
 }
+.bottomfooter {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 55%;
+  background-color: var(--color-1);
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+}
+
+.propertytext {
+  color: var(--text-color);
+  display: flex;
+}
+#group {
+  text-align: left;
+}
+#subject {
+  text-align: left;
+}
+
+@media(max-width: 1280px){
+  .links-hider {
+    width: 15%;
+  }
+  .bottomfooter {
+    gap: 30%;
+  }
+}
 
 @media screen and (max-width: 500px) {
   .form .column {
